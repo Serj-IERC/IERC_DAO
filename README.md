@@ -35,17 +35,7 @@ Tokenomics plays a pivotal role in aligning incentives and rewarding valuable co
 The success of IERC DAO relies on the collaboration of various stakeholders, each with aligned incentives and dedicated to achieving the mission of IERC DAO.
 IERC DAO is structured as follows:
 
-- IERC Core Team
-- Senior Committee Members
-- Community Members
-- Working Groups, Stewards, and Contributors
-- Service Providers
-
-**IERC Core Team**
-
-The IERC Core Team comprises Full-Time Equivalent members employed by the DAO, compensated with a combination of $ethi inscriptions and stablecoins. Principal of the IERC Core Team is Serj, CEO and Founder of IERC Protocol and IERC DAO. Despite their employment status, Core Team members do not have any special privileges beyond their compensation. They engage in governance on equal terms with other $ethi holders.
-
-**Senior Committee Members**
+**Committee Members**
 
 Senior Committee Members are individuals who resonate with the mission and vision of IERC DAO and wish to contribute. They have access to IERC DAO's open activities and discussions on platforms like Discord and Telegram. These members can engage with the DAO by participating in bounties and other opportunities and possessing governance rights.
 
@@ -83,8 +73,6 @@ A dedicated staking pool will be opened for DAO members on https://app.ierc20.co
 
 ## GitHub and Snapshot in the IERC DAO Ecosystem
 
-**Introduction**
-
 Within the expansive landscape of decentralized governance and community-driven ecosystems, platforms like GitHub and Snapshot play pivotal roles in facilitating community engagement, enabling transparent decision-making, and driving project funding. In the context of IERC DAO, these platforms serve as essential tools for empowering stakeholders, fostering collaboration, and advancing the collective goals of the ecosystem.
 
 ### GitHub
@@ -100,21 +88,79 @@ Snapshot serves as a pivotal platform for governance and decision-making within 
 
 - Transparent Governance: Snapshot facilitates transparent decision-making by recording all proposals, discussions, and voting outcomes on-chain. This transparency enhances accountability and fosters trust among participants, ensuring that governance decisions are made in the best interest of the community.
 
-## Architecture
+## Governance Framework Overview
 
-IERC DAO operates through the indexer deployed on the Ethereum blockchain. The initial version of IERC DAO (IERC DAO V1) comprises several fundamental components:
+The governance decisions of IERC DAO are vested in $ethi inscription holders, who publicly propose, discuss, and vote on IERC DAO proposals.
 
-1. Governance and staking.
-2. Contribution and liquidity bootstrapping mechanisms facilitated through the IERC Ecosystem.
-3. A native governance inscription: $ethi.
-4. A Gnosis Safe multi-signature wallet is responsible for executing proposals approved by IERC Core Members.
-5. IERC DAO's intellectual property (IP) and data assets, represented as inscriptions held within the DAO.
+### IEIP Proposal
+
+The IEIP (IERC Ecosystem Improvement Proposal) is a mechanism through which community members can propose changes, enhancements, or new features to the IERC ecosystem. These proposals are initiated, reviewed, and published by IERC DAO, and subsequently voted upon by the community through the Snapshot voting platform.
+
+### Proposal Process Overview
+
+Proposals serve as the primary means through which IERC DAO executes decisions allocates funds, and adjusts its strategies. These proposals may originate formally or informally. Informal discussions typically occur on Telegram or Discord. If these discussions lead to the need for a formal proposal, a member should upload a preliminary version on GitHub to gather community input. These initial proposals undergo refinement based on received feedback until they are ready to proceed. At this stage, the proposal on GitHub becomes the final version, with further edits restricted.
+Proposals requiring structured governance must be submitted to Snapshot (on-chain voting) for a formal vote based on inscriptions.
+IERC DAO will also utilize a soft governance mechanism via Snapshot to streamline decision-making and manage decision fatigue. This form of governance addresses smaller-scale decisions involving norms and local agreements, as observed in working groups or specific project evaluations. Notably, this soft governance approach excludes determinations related to governance, fund allocation, or treasury tokens.
+
+### Initiating an IEIP Proposal Overview
+
+**Phase I: Ideation**
+
+- Duration: Open-ended.
+- Tool: Telegram or Discord.
+- Discussion platform: Github Issue
+- Community members and $ethi holders initiate discussions by posting ideas and suggestions in the designated or Telegram chat or Discord Channel.
+- Ideas and suggestions are discussed and refined on the IERC DAO Telegram chat or Discord Server. Once an idea or suggestion gathers sufficient support (20 reaction emojis), it is considered for Phase II.
+
+**Phase II: Formalization**
+
+- Duration: 3 Days.
+- Tool: GitHub
+- Proposals are posted on IERC DAO's GitHub for further discussion and refinement. IERC Core Team, Senior Committee Members, and the proposer will have a further discuss to make the proposal more feasible. There should be at least 1 online meeting. 
+- If the proposal has been denied, there should be a comment and specific reason why it has been denied. 
+
+**Phase III: Consensus**
+- Duration: 7 Days.
+- Tool: Snapshot.
+- Phase II proposals with majority support progress to Phase III.
+- Phase III proposals require majority approval with a 5% quorum of the circulating inscription supply through inscription-based voting.
+
+### Proposal Issue Template 
+
+**Title:** [KEEP THE TITLE CLEAN]
+
+Date Created: [ADD CREATED DATE]
+
+Date Submitted: [ADD DATED POSTED TO DISCOURSE]
+
+**Short overview**
+
+Sum up this proposal in a few bullet points or sentences.
+
+**Scope Description**
+- **Motivation**
+
+Why are you making this proposal? What issue or opportunity is this proposal addressing? What are the driving factors behind why you think this is a good idea?
+
+- **Scope of work**
+
+Detailed information about the proposal
+
+- **Duration**
+
+Project implementation cycle.
+
+- **Technical specification** (Optional)
+
+**Key results** (Optional)
+
+How will the project’s success be measured?
 
 ## Treasury funds
 
 ### Scope of Treasury Fund Utilization
 
-The IERC DAO treasury funds are centrally managed on [Safe](https://safe.global/), enhancing accessibility and transparency for all community members. Below outline the permissible uses of IERC DAO treasury funds, which can be accessed through the designated Safe address (eth:0xxx wallet to be created). Funding requests falling within these categories should be detailed in proposals:
+The IERC DAO treasury funds are managed on [Safe](https://safe.global/), enhancing accessibility and transparency for all community members. Below outline the permissible uses of IERC DAO treasury funds, which can be accessed through the designated Safe address (eth:0xxx wallet to be created). Funding requests falling within these categories should be detailed in proposals:
 
 1. Community Projects: Allocated for personnel, development expenses, and infrastructure costs (e.g., servers, domain names) related to IERC DAO community projects.
 2. Community Working Groups: Funds personnel, development fees, and infrastructure expenses (e.g., servers, domain names) for IERC DAO community working groups.
