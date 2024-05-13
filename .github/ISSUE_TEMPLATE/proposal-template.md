@@ -11,7 +11,7 @@ assignees: ''
 **Date Created:** [ADD CREATED DATE]
 **Date Submitted:** [ADD DATED POSTED TO DISCOURSE]
 
-### Scope Description
+**Scope Description**
 [Sum up this proposal in a few bullet points or sentences.]
 
 - **Motivation**
@@ -21,7 +21,7 @@ assignees: ''
 [Detailed information about the proposal]
 
 - **Duration**
-Project implementation cycle.
+[Project implementation cycle]
 
 - **Technical specification (Optional)**
 
