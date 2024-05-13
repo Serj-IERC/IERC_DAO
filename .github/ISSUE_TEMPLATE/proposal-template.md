@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-## Proposal Template
-
 **Title:** [KEEP THE TITLE CLEAN]
 **Date Created:** [ADD CREATED DATE]
 **Date Submitted:** [ADD DATED POSTED TO DISCOURSE]
