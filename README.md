@@ -8,7 +8,7 @@ IERC DAO, short for IERC Decentralized Autonomous Organization, is a community-l
 
 **Mission**
 
-At IERC DAO, our mission is to foster decentralized governance and community-driven decision-making within the IERC ecosystem. We strive to empower individuals to actively participate in shaping the future of our platform, ensuring inclusivity, transparency, and accountability at every step.
+At IERC DAO, our goal is to foster decentralized governance and community-driven decision-making within the IERC ecosystem. We strive to empower individuals to actively participate in shaping the future of our platform, ensuring inclusivity, transparency, and accountability at every step.
 
 **Vision**
 
