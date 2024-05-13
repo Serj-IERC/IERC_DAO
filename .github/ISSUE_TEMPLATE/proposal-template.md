@@ -13,7 +13,7 @@ assignees: ''
 **Date Created:** [ADD CREATED DATE]
 **Date Submitted:** [ADD DATED POSTED TO DISCOURSE]
 
-###Scope Description
+### Scope Description
 [Sum up this proposal in a few bullet points or sentences.]
 
 - **Motivation**
