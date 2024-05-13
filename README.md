@@ -1,6 +1,6 @@
 # IERC-DAO
 
-## Abstract
+## Abstract 
 
 IERC DAO, short for IERC Decentralized Autonomous Organization, is a community-led governance framework established within the IERC ecosystem. Initiated by Serj, the founder of IERC Protocol, and governed by IERC Protocol members. Driven by autonomous voting, IERC DAO aims to foster community participation, ensure transparent decision-making, and promote the healthy growth of the IERC platform.
 
